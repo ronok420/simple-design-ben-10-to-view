@@ -1,0 +1,82 @@
+.sectiondiv{
+    display: flex;
+}
+.sec-1-div{
+    width: 50%;
+    text-decoration: solid;
+    /* margin-left: 5%; */
+}
+h1{
+    font-size: 80px;
+    font-weight:900;
+    /* color: rgb(22, 207, 152); */
+    color:rgba(65, 36, 36, 0.664);
+}
+h2{
+    font-size: 40px;
+}
+ul{
+    font-size: 30px;
+}
+#sec-1-div-1{
+    margin-left: 15%;
+    /* margin-top: 5%; */
+    
+}
+#sec-1-div-2{
+margin-right: 10%;
+}
+span{
+    color: darksalmon;
+    /* color: darkorange; */
+}
+body{
+    font-family: 'Shadows Into Light', cursive;
+}
+/* Define the animation called 'jump' */
+@keyframes jump {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-30px); }
+    100% { transform: translateY(0); }
+}
+
+
+/* Apply the 'jump' animation to the images */
+
+
+
+img {
+    animation: jump 1.4s infinite; 
+} 
+
+
+/*******          section  3  css  ***********/
+
+.section-3-div img{
+    width: 20%;
+    margin-left: 20%;
+   
+   
+
+
+}
+
+.section-3-div{
+    width: 25%;
+    margin-right: 20px;
+   
+    border: 3px ;
+    background-color: rgba(2, 2, 2, 0.158);
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#section-3{
+    display: flex;
+    justify-content: center;
+
+  
+}
