@@ -80,3 +80,14 @@ img {
 
   
 }
+footer{
+    font-size: 25px;
+    height: 150px;
+    text-align: center; /* Center the text content horizontally */
+    /* line-height: 100px;  */
+    margin-top: 5%;
+    /* background-color: black; */
+    /* color: white; */
+    font-weight: bold;
+   
+}
